@@ -30,3 +30,5 @@ ruby test.rb
 
 You don't have to run the **bundle exec rspec** command. The test suite will automatically run because
 'rspec/autorun' is being required by the test file.
+
+To see how I brainstormed this project, check out [BRAINSTORM.md](BRAINSTORM.md)
