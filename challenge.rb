@@ -77,7 +77,7 @@ class Challenge
       #We do that because each team only plays once per match day. Ex. 10 teams === 5 matchdays
       matches = @@game_results.each_slice(@@teams.length / 2).to_a
 
-      # Here is where we create our nested JSON structure and store in the class variable @@matches
+      # Here is where we create our nested JSON-like structure and store in the class variable @@matches
       matches.each.with_index(1) do |match, idx|
         @@matches << { "Matchday #{idx}" => 
           match.map { |game| game.split(', ') }.map do |game|

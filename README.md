@@ -4,15 +4,13 @@ Hey Jane Tech Team!
 
 To get things started,
 Make sure you have Ruby version '3.1.2' installed on your local machine
-After Ruby version '3.1.2' is installed,
-
-Run the command:
+After Ruby version '3.1.2' is installed, run the command:
 
 ```
 bundle install
 ```
 
-After running **bundle install**, you should be good to go start the application
+After running **bundle install**, you should be good to go start the application.
 Run this command to start the application:
 
 ```
