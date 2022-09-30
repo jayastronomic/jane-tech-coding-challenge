@@ -9,3 +9,5 @@ First, read the file that is to be parsed and store its data in a class variable
 Second, I want to then format the the input file’s data into a structure that would be easy to iterate through. I thought that transforming the data into a JSON-like object would be perfect to use because JSON is very organized, and easy to traverse so that I can grab the values I may need. I would store the JSON-like object in a class variable called `@@matches` to access throughout the class itself for later use.
 
 Finally, I then want to use the JSON-like object to log the matchday results for the highest scoring teams for each matchday. I would iterate through each match using the class variable `@@matches`, do some business logic, and write to a file for each match day. That would be the final step to the process of this application.
+
+Back to [README](README.md)
