@@ -21,4 +21,10 @@ RSpec.describe Challenge do
       expect(File.file?("julians_output.txt")).to be_truthy
     end
   end
+
+  describe '.get_top_3' do
+    it 'returns the top 3 teams for a matchday' do
+      expect(described_class.get_top_3.length).to be(3)
+    end
+  end
 end

@@ -4,8 +4,8 @@ Starting this coding challenge, my thought was we want to make the application t
 
 Since this project was focused more on a input/output approach, I broke it down to 3 steps:
 
-First, read the file that is to be parsed and store its data in a class variable for later use. I thought the best variable name for storing the input file’s data was @@games since we know that the data is about soccer games. We would first have to find out how many teams there are. Then we could find out how many games there are in each match day.
+First, read the file that is to be parsed and store its data in a class variable for later use. I thought the best variable name for storing the input file’s data was `@@games` since we know that the data is about soccer games. To find out how many total matches, I would first have to find out how many teams there are. Then we could find out how many games there are in each match day.
 
-Second, we want to then format the the input file’s data into a structure that would be easy to iterate through. I thought that transforming the data into a JSON-like object would be perfect to use because JSON is very organized, and easy to traverse to grab the value’s you may need. We would store the JSON-like object in a class variable called @@matches to access throughout the class itself.
+Second, we want to then format the the input file’s data into a structure that would be easy to iterate through. I thought that transforming the data into a JSON-like object would be perfect to use because JSON is very organized, and easy to traverse so that I can grab the values I may need. I would store the JSON-like object in a class variable called `@@matches` to access throughout the class itself for later use.
 
-Finally, we then want to use the JSON-like object to log the matchday results for the highest scoring teams for each matchday. We would iterate through the class variable @@matches, do some business logic, and write to a file for each match day. That would be the final step to the process of this application.
+Finally, I then want to use the JSON-like object to log the matchday results for the highest scoring teams for each matchday. I would iterate through each match using the class variable `@@matches`, do some business logic, and write to a file for each match day. That would be the final step to the process of this application.
