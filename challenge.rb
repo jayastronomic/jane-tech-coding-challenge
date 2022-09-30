@@ -7,7 +7,6 @@ class Challenge
   @@game_results = []
   @@matches = []
 
-
   def self.run
     puts 'Type file input name:'
     fname = gets.chomp
